@@ -6,7 +6,7 @@ public class Ex08 {
 		for(int line = 1 ; line<=6 ; line++) {
 			System.out.println("\n");
 			for(int again = 1 ; again<=6 ; again++) {
-				System.out.print("*");
+				System.out.print("*" +again);
 			}
 		}
 
